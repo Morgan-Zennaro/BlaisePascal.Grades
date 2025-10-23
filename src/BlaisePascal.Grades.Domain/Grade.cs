@@ -2,7 +2,7 @@
 {
     public class Grade
     {
-        float Value { get; private set; }
-        string Subject { get; private set; }
+        public float Value { get; private set; }
+        public string Subject { get; private set; }
     }
 }
